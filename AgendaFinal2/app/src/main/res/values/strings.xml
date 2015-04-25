@@ -15,5 +15,9 @@
     <string name="menu_delete">Borrar nota</string>
     <string name="edit_note">Modificar nota</string>
     <string name="listado_calendario">Listado Calendario</string>
-    <string name="descripcion">Proyecto Final Embebidos II</string>
+    <string name="descripcion">Proyecto Final Embebidos II\n\nIntegrantes\n\n
+                                Melissa Karina Alejandro Luna\n
+                                Cintya Marisol Flores Lopez\n
+                                Jonathan Torres Carrizales\n
+                                Osvaldo Vazquez Tovar</string>
 </resources>
