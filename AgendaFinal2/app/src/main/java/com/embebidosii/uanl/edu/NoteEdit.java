@@ -7,6 +7,9 @@ import android.view.View;
 import android.widget.Button;
 import android.widget.EditText;
 
+import com.embebidosii.uanl.edu.NotesDbAdapter;
+import com.embebidosii.uanl.edu.agendafinal.R;
+
 public class NoteEdit extends Activity {
 
     private EditText mTitleText;
@@ -29,14 +32,14 @@ public class NoteEdit extends Activity {
         Button confirmButton = (Button) findViewById(R.id.confirm);
 
         mRowId = (savedInstanceState == null) ? null :
-            (Long) savedInstanceState.getSerializable(NotesDbAdapter.KEY_ROWID);
-		if (mRowId == null) {
-			Bundle extras = getIntent().getExtras();
-			mRowId = extras != null ? extras.getLong(NotesDbAdapter.KEY_ROWID)
-									: null;
-		}
+                (Long) savedInstanceState.getSerializable(NotesDbAdapter.KEY_ROWID);
+        if (mRowId == null) {
+            Bundle extras = getIntent().getExtras();
+            mRowId = extras != null ? extras.getLong(NotesDbAdapter.KEY_ROWID)
+                    : null;
+        }
 
-		populateFields();
+        populateFields();
 
         confirmButton.setOnClickListener(new View.OnClickListener() {
 
