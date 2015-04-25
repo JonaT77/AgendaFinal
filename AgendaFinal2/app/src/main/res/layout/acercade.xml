@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:orientation="horizontal"
+    android:background="@drawable/acercadeback"
     android:layout_width="fill_parent"
     android:layout_height="wrap_content"
     android:gravity="center">
@@ -13,6 +14,17 @@
         android:text="@string/descripcion"
         android:layout_width="wrap_content"
         android:layout_height="fill_parent"
-        android:textColor="#FFFFFF"
+        android:textColor="#FCFCFC"
         android:gravity="center_vertical"/>
+    <TextView android:layout_height="wrap_content"
+        android:layout_marginRight="5dp"
+        android:textSize="10dp"
+        android:text="Version 3.4"
+        android:textColor="#FCFCFC"
+        android:gravity="left|right"
+        android:layout_gravity="right"
+        android:id="@+id/textView1"
+        android:layout_width="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:layout_marginTop="180dp"></TextView>
 </LinearLayout>

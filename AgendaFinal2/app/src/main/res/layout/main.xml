@@ -3,9 +3,10 @@
     android:orientation="vertical"
     android:layout_width="fill_parent"
     android:layout_height="fill_parent"
+    android:background="@drawable/back"
     android:weightSum="1">
     <TextView
-        android:color="#FFFFFF"
+        android:color="#040005"
         android:layout_width="fill_parent"
         android:layout_height="wrap_content"
         android:text="@string/TituloApp"
@@ -13,12 +14,42 @@
         android:layout_marginTop="15dip"
         android:keepScreenOn="true"
         android:textSize="20sp"
-        android:textColor="#C0C0C0"/>
-    <LinearLayout android:layout_width="fill_parent" android:id="@+id/linearLayout1" android:orientation="vertical" android:layout_height="wrap_content" android:layout_marginTop="70dp">
-        <Button android:id="@+id/boton_nota" android:layout_height="40dp" android:layout_width="150dp" android:layout_gravity="center" android:text="@string/Evento_Calendario"></Button>
-        <Button android:text="@string/Listado" android:id="@+id/button3" android:layout_height="40dp" android:layout_width="150dp" android:layout_gravity="center"></Button>
-        <Button android:text="@string/AcercaDe" android:id="@+id/button1" android:layout_height="40dp" android:layout_width="150dp" android:layout_gravity="center"></Button>
+        android:textColor="#FCFCFC"/>
+    <LinearLayout android:layout_width="fill_parent"
+        android:id="@+id/linearLayout1"
+        android:orientation="vertical"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="70dp">
+
+    <Button android:id="@+id/boton_nota"
+        android:layout_height="40dp"
+        android:layout_width="150dp"
+        android:layout_gravity="center"
+        android:text="@string/Evento_Calendario"></Button>
+
+    <Button android:text="@string/Listado"
+        android:id="@+id/button3"
+        android:layout_height="40dp"
+        android:layout_width="150dp"
+        android:layout_gravity="center"></Button>
+
+    <Button android:text="@string/AcercaDe"
+        android:id="@+id/button1"
+        android:layout_height="40dp"
+        android:layout_width="150dp"
+        android:layout_gravity="center"></Button>
+
+        <TextView android:layout_height="wrap_content"
+            android:layout_marginRight="5dp"
+            android:textSize="10dp"
+            android:text="Version 3.4"
+            android:textColor="#FCFCFC"
+            android:gravity="left|right"
+            android:layout_gravity="right"
+            android:id="@+id/textView1"
+            android:layout_width="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceSmall"
+            android:layout_marginTop="180dp"></TextView>
     </LinearLayout>
-    <TextView android:layout_height="wrap_content" android:layout_marginRight="5dp" android:textSize="10dp" android:text="By David" android:gravity="left|right" android:layout_gravity="right" android:id="@+id/textView1" android:layout_width="wrap_content" android:textAppearance="?android:attr/textAppearanceSmall" android:layout_marginTop="180dp"></TextView>
 
 </LinearLayout>

@@ -1,11 +1,12 @@
 <?xml version="1.0" encoding="utf-8"?>
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:orientation="vertical"
+    android:background="@drawable/backlandscape"
     android:layout_width="fill_parent"
     android:layout_height="fill_parent"
     android:weightSum="1">
     <TextView
-        android:color="#FFFFFF"
+        android:color="#040005"
         android:layout_width="fill_parent"
         android:layout_height="wrap_content"
         android:text="@string/TituloApp"
@@ -13,7 +14,7 @@
         android:layout_marginTop="15dip"
         android:keepScreenOn="true"
         android:textSize="20sp"
-        android:textColor="#C0C0C0"/>
+        android:textColor="#FCFCFC"/>
     <LinearLayout android:layout_width="fill_parent" android:id="@+id/linearLayout1" android:layout_height="wrap_content" android:layout_marginTop="70dp" android:orientation="horizontal">
         <LinearLayout android:layout_width="fill_parent" android:id="@+id/linearLayout2" android:layout_height="wrap_content" android:gravity="center">
             <Button android:text="@string/Evento_Calendario" android:id="@+id/boton_nota" android:layout_height="40dp" android:layout_width="150dp" android:layout_gravity="center"></Button>
@@ -21,6 +22,6 @@
         </LinearLayout>
     </LinearLayout>
     <Button android:layout_width="150dp" android:layout_height="40dp" android:text="@string/AcercaDe" android:layout_gravity="center" android:id="@+id/button1"></Button>
-    <TextView android:id="@+id/textView1" android:layout_height="wrap_content" android:text="By David" android:textAppearance="?android:attr/textAppearanceSmall" android:layout_width="wrap_content" android:gravity="left|right" android:layout_gravity="right" android:layout_marginTop="110dp" android:layout_marginRight="5dp" android:textSize="10dp"></TextView>
+    <TextView android:id="@+id/textView1" android:layout_height="wrap_content" android:text="Version 3.4" android:textColor="#FCFCFC" android:textAppearance="?android:attr/textAppearanceSmall" android:layout_width="wrap_content" android:gravity="left|right" android:layout_gravity="right" android:layout_marginTop="110dp" android:layout_marginRight="5dp" android:textSize="10dp"></TextView>
 
 </LinearLayout>
