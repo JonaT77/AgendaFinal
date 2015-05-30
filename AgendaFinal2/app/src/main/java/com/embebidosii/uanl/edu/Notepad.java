@@ -13,7 +13,9 @@ import android.widget.AdapterView.AdapterContextMenuInfo;
 import android.widget.ListView;
 import android.widget.SimpleCursorAdapter;
 
-import com.embebidosii.uanl.edu.R;
+import com.embebidosii.uanl.edu.*;
+
+import agenda.proyecto.R;
 
 public class Notepad extends ListActivity {
     private static final int ACTIVITY_CREATE=0;

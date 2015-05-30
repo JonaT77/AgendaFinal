@@ -8,7 +8,9 @@ import android.view.View.OnClickListener;
 import android.widget.Button;
 import android.widget.Toast;
 
-import com.embebidosii.uanl.edu.R;
+import com.embebidosii.uanl.edu.*;
+
+import agenda.proyecto.R;
 
 public class AgendaFinalActivity extends Activity {
     //Declaraciones de Tipos

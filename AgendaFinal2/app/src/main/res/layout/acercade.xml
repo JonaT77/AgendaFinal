@@ -19,7 +19,7 @@
     <TextView android:layout_height="wrap_content"
         android:layout_marginRight="5dp"
         android:textSize="10dp"
-        android:text="Version 3.4"
+        android:text="Delmia Note"
         android:textColor="#FCFCFC"
         android:gravity="left|right"
         android:layout_gravity="right"
