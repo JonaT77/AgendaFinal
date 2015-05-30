@@ -3,7 +3,7 @@ package com.embebidosii.uanl.edu;
 import android.app.Activity;
 import android.os.Bundle;
 
-import com.embebidosii.uanl.edu.agendafinal.R;
+//import com.embebidosii.uanl.edu.R;
 
 public class AcercaDe extends Activity  {
 

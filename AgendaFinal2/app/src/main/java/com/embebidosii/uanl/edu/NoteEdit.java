@@ -8,7 +8,7 @@ import android.widget.Button;
 import android.widget.EditText;
 
 import com.embebidosii.uanl.edu.NotesDbAdapter;
-import com.embebidosii.uanl.edu.agendafinal.R;
+import com.embebidosii.uanl.edu.R;
 
 public class NoteEdit extends Activity {
 
